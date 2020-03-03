@@ -54,6 +54,6 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "jinqu": "^0.7.0"
+    "jinqu": "~1.0.0"
   }
 }
