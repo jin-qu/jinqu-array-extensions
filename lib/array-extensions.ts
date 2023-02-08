@@ -1,10 +1,9 @@
 import { Ctor, Func1, Func2, IQuery, IQuerySafe, QueryFunc } from "jinqu";
 
-// tslint:disable-next-line:no-namespace
 declare global {
     interface Array<T> extends IQuerySafe<T> {
         q(ctor?: Ctor<T>): IQuery<T>;
-        joinWith<TOther, TResult = any, TKey = any>(
+        joinWith<TOther, TResult = unknown, TKey = unknown>(
             other: TOther[], thisKey: Func1<T, TKey>, otherKey: Func1<TOther, TKey>,
             selector: Func2<T, TOther, TResult>, ...scopes): IQuery<TResult>;
         concatWith(other: T[]): IQuery<T>;
@@ -12,7 +11,7 @@ declare global {
     }
 }
 
-Array.prototype.q = function(ctor?: Ctor<any>) {
+Array.prototype.q = function(ctor?: Ctor<unknown>) {
     return this.asQueryable(ctor);
 };
 
@@ -24,9 +23,9 @@ function extendArray(func: string) {
         f += "To";
     }
 
-    Array.prototype[f] = Array.prototype[f] || function() {
+    Array.prototype[f] = Array.prototype[f] || function(...args) {
         const q = this.asQueryable();
-        return q[func].apply(q, arguments);
+        return q[func](...args);
     };
 }
 
@@ -36,7 +35,7 @@ Object.getOwnPropertyNames(QueryFunc).forEach(extendArray);
 declare global {
     interface ArrayConstructor {
         range(start: number, count?: number): IterableIterator<number>;
-        repeat<T = any>(item: T, count: number): IterableIterator<T>;
+        repeat<T = unknown>(item: T, count: number): IterableIterator<T>;
     }
 }
 
