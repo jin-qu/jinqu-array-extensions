@@ -1,5 +1,5 @@
 import { QueryFunc } from "jinqu";
-import "../index";
+import "..";
 
 // tslint:disable:no-unused-expression
 describe("Array extensions", () => {
@@ -19,7 +19,7 @@ describe("Array extensions", () => {
 
     it("should create all query functions on Array", () => {
         const arr = [];
-        const haveItAll = Object.getOwnPropertyNames(QueryFunc).every((f) => f in arr)
+        const haveItAll = Object.getOwnPropertyNames(QueryFunc).every(f => f in arr)
             && "joinWith" in arr
             && "concatWith" in arr
             && "reverseTo" in arr;
@@ -31,7 +31,7 @@ describe("Array extensions", () => {
         const arr = [1, 2, 3, 4, 5];
         const query = arr.q();
 
-        expect(query.where((i) => i > 3).count()).toBe(2);
-        expect(arr.where((i) => i > 3).count()).toBe(2);
+        expect(query.where(i => i > 3).count()).toBe(2);
+        expect(arr.where(i => i > 3).count()).toBe(2);
     });
 });
