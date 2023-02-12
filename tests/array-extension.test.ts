@@ -1,7 +1,6 @@
 import { QueryFunc } from "jinqu";
 import "..";
 
-// tslint:disable:no-unused-expression
 describe("Array extensions", () => {
 
     it("should create range", () => {

@@ -31,7 +31,6 @@ function extendArray(func: string) {
 
 Object.getOwnPropertyNames(QueryFunc).forEach(extendArray);
 
-// tslint:disable-next-line:no-namespace
 declare global {
     interface ArrayConstructor {
         range(start: number, count?: number): IterableIterator<number>;
