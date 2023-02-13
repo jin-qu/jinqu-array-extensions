@@ -43,21 +43,17 @@ Array.range = Array.range || function*(start?: number, count?: number) {
         count = start;
         start = 0;
     }
-    if (count < 0) {
+    if (count < 0)
         throw new Error("Specified argument was out of the range of valid values");
-    }
 
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < count; i++)
         yield start + i;
-    }
 };
 
 Array.repeat = Array.repeat || function*(item, count) {
-    if (count < 0) {
+    if (count < 0)
         throw new Error("Specified argument was out of the range of valid values");
-    }
 
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < count; i++)
         yield item;
-    }
 };
