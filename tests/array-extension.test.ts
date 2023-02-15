@@ -1,5 +1,5 @@
 import { QueryFunc } from "jinqu";
-import "..";
+import "../index";
 
 describe("Array extensions", () => {
 
