@@ -5,7 +5,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/08790e72c34e4f44b2f6a04740252780)](https://app.codacy.com/gh/jin-qu/jinqu-array-extensions/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 <a href="https://snyk.io/test/npm/jinqu-array-extensions"><img src="https://snyk.io/test/npm/jinqu-array-extensions/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/npm/jinqu-array-extensions" style="max-width:100%;"></a>
 
-[![npm version](https://badge.fury.io/js/.svg)](https://badge.fury.io/js/jinqu-array-extensions)
+[![npm version](https://img.shields.io/npm/v/jinqu-array-extensions)](https://www.npmjs.com/package/jinqu-array-extensions)
 [![npm downloads](https://img.shields.io/npm/dm/jinqu-array-extensions.svg)](https://www.npmjs.com/package/jinqu-array-extensions)
 
 [![GitHub issues](https://img.shields.io/github/issues/jin-qu/jinqu-array-extensions.svg)](https://github.com/jin-qu/jinqu-array-extensions/issues)
