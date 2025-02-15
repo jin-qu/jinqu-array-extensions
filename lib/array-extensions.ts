@@ -5,7 +5,7 @@ declare global {
         q(ctor?: Ctor<T>): IQuery<T>;
         joinWith<TOther, TResult = unknown, TKey = unknown>(
             other: TOther[], thisKey: Func1<T, TKey>, otherKey: Func1<TOther, TKey>,
-            selector: Func2<T, TOther, TResult>, ...scopes): IQuery<TResult>;
+            selector: Func2<T, TOther, TResult>, ...scopes: any[]): IQuery<TResult>;
         concatWith(other: T[]): IQuery<T>;
         reverseTo(): IQuery<T>;
     }
@@ -23,7 +23,7 @@ function extendArray(func: string) {
         f += "To";
     }
 
-    Array.prototype[f] = Array.prototype[f] || function(...args) {
+    Array.prototype[f] = Array.prototype[f] || function(...args: any[]) {
         const q = this.asQueryable();
         return q[func](...args);
     };
