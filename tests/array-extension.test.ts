@@ -1,4 +1,4 @@
-import { QueryFunc } from "jinqu";
+import { QueryFunc } from "@jin-qu/jinqu";
 import "../index";
 
 describe("Array extensions", () => {

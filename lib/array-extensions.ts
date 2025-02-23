@@ -1,4 +1,4 @@
-import { Ctor, Func1, Func2, IQuery, IQuerySafe, QueryFunc } from "jinqu";
+import { Ctor, Func1, Func2, IQuery, IQuerySafe, QueryFunc } from "@jin-qu/jinqu";
 
 declare global {
     interface Array<T> extends IQuerySafe<T> {
