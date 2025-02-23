@@ -1,12 +1,12 @@
-# jinqu-array-extensions - Jinqu Array Prototype Extensions
+# @jin-qu/array-extensions - Jinqu Array Prototype Extensions
 
 [![Build and Test](https://github.com/jin-qu/jinqu-array-extensions/actions/workflows/build.yml/badge.svg)](https://github.com/jin-qu/jinqu-array-extensions/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/jin-qu/jinqu-array-extensions/graph/badge.svg?token=QbIm6H1Ucc)](https://codecov.io/gh/jin-qu/jinqu-array-extensions)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/08790e72c34e4f44b2f6a04740252780)](https://app.codacy.com/gh/jin-qu/jinqu-array-extensions/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-<a href="https://snyk.io/test/npm/jinqu-array-extensions"><img src="https://snyk.io/test/npm/jinqu-array-extensions/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/npm/jinqu-array-extensions" style="max-width:100%;"></a>
+<a href="https://snyk.io/test/npm/@jin-qu/array-extensions"><img src="https://snyk.io/test/npm/@jin-qu/array-extensions/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/npm/@jin-qu/array-extensions" style="max-width:100%;"></a>
 
-[![npm version](https://img.shields.io/npm/v/jinqu-array-extensions)](https://www.npmjs.com/package/jinqu-array-extensions)
-[![npm downloads](https://img.shields.io/npm/dm/jinqu-array-extensions.svg)](https://www.npmjs.com/package/jinqu-array-extensions)
+[![npm version](https://img.shields.io/npm/v/@jin-qu/array-extensions)](https://www.npmjs.com/package/@jin-qu/array-extensions)
+[![npm downloads](https://img.shields.io/npm/dm/@jin-qu/array-extensions.svg)](https://www.npmjs.com/package/@jin-qu/array-extensions)
 
 [![GitHub issues](https://img.shields.io/github/issues/jin-qu/jinqu-array-extensions.svg)](https://github.com/jin-qu/jinqu-array-extensions/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jin-qu/jinqu-array-extensions/main/LICENSE)
