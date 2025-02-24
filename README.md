@@ -18,7 +18,7 @@ Jinqu no longer injects methods into Array Prototype, this repository will provi
 ## Installation
 
 ```shell
-npm i jinqu-array-extensions
+npm i @jin-qu/array-extensions
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm i jinqu-array-extensions
 You only need to import the package, Jinqu query methods will be attached to Array Prototype.
 
 ```typescript
-import 'jinqu-array-extensions';
+import '@jin-qu/array-extensions';
 
 const arr = [1, 2, 3];
 // arr.asQueryable() is not needed.
